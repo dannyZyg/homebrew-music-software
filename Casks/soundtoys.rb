@@ -6,4 +6,5 @@ cask "soundtoys" do
   name "Soundtoys 5"
   desc "Audio plugin fx bundle."
   homepage "https://www.soundtoys.com/"
+  pkg "Install Soundtoys 5"
 end
