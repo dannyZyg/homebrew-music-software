@@ -8,5 +8,7 @@ cask "native-access" do
   homepage "https://www.native-instruments.com/en/specials/native-access/"
 
   app "Native Access.app"
-  uninstall pkgutil: ["com.native-instruments..*"]
+  uninstall pkgutil: [
+    "com.native-instruments..*"
+  ]
 end
