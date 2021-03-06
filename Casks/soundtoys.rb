@@ -7,4 +7,6 @@ cask "soundtoys" do
   desc "Audio plugin fx bundle."
   homepage "https://www.soundtoys.com/"
   pkg "Install Soundtoys 5.pkg"
+
+  uninstall pkgutil: "com.soundtoys.Soundtoys5"
 end
